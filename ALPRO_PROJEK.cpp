@@ -169,7 +169,7 @@ void cariKontak() {
         cout << "\t__________________________________________" << endl;
         cout << "\tKetemu! YAYYYYY" << endl;
     } else {
-        cout << "\tKontak bernama\t:" << keyword << ", ga ketemu. " << endl;
+        cout << "\t| Kontak bernama\t:" << keyword << ", ga ketemu. " << endl;
     }
 }
 
@@ -260,7 +260,7 @@ void simpanKeFile() {
         file << daftarKontak[i].email << endl;
     }
     file.close();
-    cout << "\tData disimpan ke kontak.txt (" << totalKontak << " kontak)" << endl;
+    cout << "\tData disimpan ke kontak.txt (" << totalKontak << " kontak)";
 }
 
 void loadDariFile() {
@@ -341,7 +341,7 @@ int main() {
                 cout << "\t Matur Suwun udah pake program this! Dadah~ " << endl; 
                 break;
             default:
-                cout << "\t Salah pilih, coba 1-9 " << endl; 
+                cout << "\tSalah pilih, coba 1-9 " << endl; 
         }
     } 
     while(pilihan != 9);
