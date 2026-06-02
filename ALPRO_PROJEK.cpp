@@ -180,7 +180,7 @@ void hapusKontak() {
     }
     string namaHapus;
    cout << "\t=============== HAPUS KONTAK ==============" << endl;
-   cout << "\t| Nama kontak yang mau dihapus\t: "<< endl;
+   cout << "\t| Nama kontak yang mau dihapus\t: ";
    cin.ignore();
    getline(cin, namaHapus);
     
