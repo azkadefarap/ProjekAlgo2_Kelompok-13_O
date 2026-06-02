@@ -15,7 +15,7 @@ long long inputNoTelp() {
         cin >> noTelp;
         if (cin.fail()) {
             cout << "\t| ERROR!!! No Telepon JUST boleh berisi angka YO!" << endl;
-            cout << "\t| No Telepon\t";
+            cout << "\t| No Telepon\t:";
             cin.clear();
             cin.ignore(1000, '\n'); 
         } 
